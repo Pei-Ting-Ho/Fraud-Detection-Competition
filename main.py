@@ -1,9 +1,17 @@
+"""
+EXECUTE THE MODELLING PIPELINE
+"""
+
 from Preprocess import preprocess_aggregation, preprocess_anomaly
 from Model import ensemble_model
 
 
 def main():
     
+    '''
+    To run the whole workflow 
+    '''
+
     print('STEP 1: PREPROCESSING')
     preprocess_aggregation.main()
     preprocess_anomaly.main()
