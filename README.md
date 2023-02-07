@@ -19,9 +19,9 @@ Hence, we could resort to the partially automated approach, based on defined ass
 ### Step 1: Data Preprocessing
 #### Step 1.1: Basic Preprocessing
 - Data Characteristics
-  - Transactional records (One-To-Many Relationship): Each customer might have 0, 1, > 1 rows of a specific transactional kind.
-  - Customer information (One-To-One Relationship): Each customer has 1 row of associated attributes.
-  - Alert keys (One-To-Many Relationship): Each customer might have 1, > 1 row of associated incidents.
+  - Transactional records (One-To-Many Relationship): Each customer might have >=0 row of a specific transactional kind.
+  - Customer information (One-To-One Relationship): Each customer has =1 row of associated attributes.
+  - Alert keys (One-To-Many Relationship): Each customer might have >=1 row of associated incidents.
 - Feature Engineering 
   - Primitive features
   - Aggregated features
